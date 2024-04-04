@@ -33,7 +33,8 @@ void LinearSearch() {
 
 	do {
 		//accept the number to be searched
-		
+		cout << "\nEnter the elements you want to search: ";//step 1
+		cin >> item;
 	} while ();
 }
 
