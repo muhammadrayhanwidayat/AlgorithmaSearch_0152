@@ -39,7 +39,10 @@ void LinearSearch() {
 		ctr = 0;
 		i = 0;//step 2
 		while(1 < n) {//step 3
+			ctr++;
+			if (arr[i] == item) {
 
+			}
 		}
 
 	} while ();
