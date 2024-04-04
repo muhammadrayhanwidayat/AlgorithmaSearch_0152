@@ -30,6 +30,11 @@ void LinearSearch() {
 	char ch;
 	int ctr;	//number of comparisons
 	int item;
+
+	do {
+		//accept the number to be searched
+		
+	} while ();
 }
 
 
