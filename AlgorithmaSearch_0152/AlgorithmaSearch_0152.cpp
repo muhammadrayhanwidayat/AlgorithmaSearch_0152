@@ -29,7 +29,7 @@ void input() {
 void LinearSearch() {
 	char ch;
 	int ctr;	//number of comparisons
-	int item;
+	int item;   //elemen yang akan dicari
 
 	do {
 		//accept the number to be searched
@@ -38,7 +38,7 @@ void LinearSearch() {
 
 		ctr = 0;
 		i = 0;//step 2
-		while(1 < n) {//step 3
+		while(i < n) {//step 3
 			ctr++;
 			if (arr[i] == item) {
 				cout << "\n" << item << "founds at position" << (i + 1) << endl;//step 6
